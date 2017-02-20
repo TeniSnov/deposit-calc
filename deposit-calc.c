@@ -1,11 +1,11 @@
 #include <math.h>
-#nclude <iostream>
+#include <iostream>
 using namespace std;
-main(){
+int main(){
        int a;
        float p, c;
        double sv;
-       cout<<"Vvedite summu vklada ";
+       cout << "Vvedite summu vklada ";
        cin>>sv;
        cout<<"Vvedite srok ";
        cin>>c;
@@ -19,7 +19,6 @@ main(){
        if (c<31){
            sv=sv-sv*0.1;
            cout<<"Summa vklada na konech sroka "<<sv<<" shtraf"<<endl;
-           system ("PAUSE");
            return 0;
        }
        switch(a){
@@ -37,6 +36,5 @@ main(){
            }
        }
        cout<<"Summa vklada na konech sroka "<<sv<<endl;
-       system("PAUSE");
        return 0;
 }
