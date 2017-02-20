@@ -9,6 +9,10 @@ main(){
        cin>>sv;
        cout<<"Vvedite srok ";
        cin>>c;
+       if ((c>365)||(c<0)||(sv<10000)){
+           cout<<"Takoy vklad ne vozmozhen"<<endl;
+           return 1;
+       }
        p=c/365;
        if (sv<100000) a=1;
        else a=2;
