@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-double proverka (double sv, float c);
+int proverka (double sv, float c);
 double dohod (double sv, float c);
 
 #endif
